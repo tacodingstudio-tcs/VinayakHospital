@@ -8,9 +8,9 @@ Brand: **Vinayak Children & Maternity Hospital**, Kodinar (Gujarat). Trusted sin
 - Phone / WhatsApp / Emergency: +91 90708 09010 (emergency 24/7)
 - Email: Vinayakhospital1911@gmail.com
 - OPD hours: Mon–Sat 9:30 AM – 7:00 PM
-- Doctors: Dr Pradhyuman Jadav (Pediatrician, 10+ yrs), Dr Hetal Jadav (Gynaecologist, 12+ yrs)
+- Doctors: Dr Pradhyuman Jadav (Pediatrician, around 10 yrs), Dr Hetal Jadav (Gynaecologist, 12+ yrs)
 - Powered-by credit: Twisha Consultancy Services
-- Only real stats exist: 2 doctors, 10+ years, 24/7 emergency, since 2014, 19+ care services. No invented numbers.
+- Only real stats exist: 2 doctors, around 10 years, 24/7 emergency, since 2014, 19+ care services. No invented numbers.
 
 ## Departments (3) and services (19)
 1. Pediatric Care (7): Newborn & Neonatal, Child Vaccination, Check-ups & Growth, Childhood Illness, Nutrition Counselling, Special & NICU Newborn Care, Emergency Pediatric.

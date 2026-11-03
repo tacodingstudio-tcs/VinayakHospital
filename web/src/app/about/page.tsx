@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 const facts = [
   [String(site.since), "Trusted care since"],
   ["2", "Specialist doctors"],
-  ["10+", "Years of care"],
+  ["~10", "Years of care"],
   ["24/7", "Emergency support"],
 ];
 const moments = ["Two lines on a pregnancy test.", "That first heartbeat.", "A mother's nervous smile.", "The first cry of a newborn.", "A child's first vaccination.", "A parent's anxious visit."];

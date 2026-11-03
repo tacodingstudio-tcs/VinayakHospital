@@ -23,7 +23,7 @@ export type Doctor = {
 export const doctors: Doctor[] = [
   {
     slug: "dr-pradhyuman-jadav", name: "Dr Pradhyuman Jadav", specialty: "Pediatrician", role: "Child Specialist",
-    photo: "/img/viyananksir.jpeg", experience: "10+ Years",
+    photo: "/img/viyananksir.jpeg", experience: "Around 10 Years",
     bio: "Dr. Pradhyuman takes the time to listen to every parent's concerns and explains things in plain language, without rushing an appointment. Known across Kodinar for his patience with even the fussiest toddlers.",
     care: ["Newborn & Neonatal Care", "Child Vaccination", "Routine Check-ups & Growth Monitoring", "Treatment for Childhood Illnesses", "Emergency Pediatric Care"],
     resource: { label: "Parent Resource", title: "Keep Your Child's Vaccinations Organized", href: "/resources/vaccination-tracker" },
