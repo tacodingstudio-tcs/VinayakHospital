@@ -30,7 +30,7 @@ export const doctors: Doctor[] = [
   },
   {
     slug: "dr-hetal-jadav", name: "Dr Hetal Jadav", specialty: "Gynaecologist", role: "Women's Health Specialist",
-    photo: "/img/vinayankmrs.jpeg", experience: "12+ Years",
+    photo: "/img/vinayankmrs.jpeg", experience: "Around 6 Years",
     bio: "Dr. Hetal believes every woman deserves to feel heard and comfortable, whether it's a routine check-up or a high-risk pregnancy. Her calm, reassuring manner has made her a trusted presence for families across Kodinar through pregnancy, delivery, and beyond.",
     care: ["Pregnancy Care & Prenatal Check-ups", "Normal Delivery", "Postnatal Care", "Routine Gynecological Check-ups", "High-Risk Pregnancy Management"],
     resource: { label: "Patient Resource", title: "Explore Women's Health Topics", href: "/resources/womens-health" },
