@@ -1,3 +1,4 @@
+import LazyMap from "@/components/LazyMap";
 import Image from "next/image";
 import Link from "next/link";
 import { DeptIcon } from "@/components/DeptIcons";
@@ -200,7 +201,7 @@ export default async function Home() {
               <a href={site.map} target="_blank" rel="noopener noreferrer" className="btn btn-ghost !px-5 !py-2.5">Get directions</a>
             </div>
           </div>
-          <iframe src={site.mapEmbed} title={`${site.name} location`} loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="h-64 w-full border-0 md:h-full md:min-h-[320px]" />
+          <LazyMap className="h-64 w-full md:h-full md:min-h-[320px]" />
         </div>
       </section>
     </>

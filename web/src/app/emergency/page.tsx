@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import LazyMap from "@/components/LazyMap";
 import { site } from "@/content/site";
 
 export const metadata: Metadata = {
@@ -45,7 +46,7 @@ export default function Emergency() {
         <h2 className="eyebrow">Find us</h2>
         <div className="mt-6 grid gap-5 lg:grid-cols-[1.4fr_0.6fr]">
           <div className="reveal card aspect-[4/3] overflow-hidden bg-cream-2">
-            <iframe src={site.mapEmbed} title={`${site.name} location`} loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="h-full w-full border-0" />
+            <LazyMap className="h-full w-full" />
           </div>
           <dl className="reveal space-y-8">
             <div><dt className="eyebrow">Address</dt><dd className="mt-2">{site.address}</dd></div>

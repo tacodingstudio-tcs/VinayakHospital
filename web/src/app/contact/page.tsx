@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Suspense } from "react";
 import AppointmentForm from "@/components/AppointmentForm";
+import LazyMap from "@/components/LazyMap";
 import PageHero from "@/components/PageHero";
 import { site } from "@/content/site";
 
@@ -31,7 +32,7 @@ export default function Contact() {
       </section>
       <section className="wrap pb-8">
         <div className="reveal card aspect-[16/9] overflow-hidden bg-cream-2 md:aspect-[21/7]">
-          <iframe src={site.mapEmbed} title={`${site.name} location`} loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="h-full w-full border-0" />
+          <LazyMap className="h-full w-full" />
         </div>
         <a href={site.map} target="_blank" rel="noopener noreferrer" className="btn btn-ghost mt-6">Get directions <span aria-hidden>→</span></a>
       </section>

@@ -311,7 +311,7 @@ export default function Story() {
         {/* Opening headline: fades as the story begins */}
         <div className="s-hero pointer-events-none absolute inset-x-0 top-[92px] px-5 text-center md:top-[96px]">
           <p className="folio hero-fade !text-rose">Vinayak Children &amp; Maternity Hospital · Kodinar</p>
-          <h1 className="display hero-fade mx-auto mt-4 max-w-[14ch] text-[clamp(1.9rem,6.2vw,6rem)] leading-[0.98] text-white">Every life begins with a <em className="text-rose">heartbeat.</em></h1>
+          <h1 className="display mx-auto mt-4 max-w-[14ch] text-[clamp(1.9rem,6.2vw,6rem)] leading-[0.98] text-white">Every life begins with a <em className="text-rose">heartbeat.</em></h1>
           <p className="hero-fade mt-4 text-sm text-white/85">Sit back, the story plays by itself ↓</p>
         </div>
 
