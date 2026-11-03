@@ -1,7 +1,7 @@
 export const site = {
   name: "Vinayak Children & Maternity Hospital",
   short: "Vinayak Hospital",
-  since: 2014,
+  since: 2023,
   phone: "+91 90708 09010",
   tel: "+919070809010",
   whatsapp: "https://wa.me/919070809010",
@@ -23,8 +23,8 @@ export type Doctor = {
 export const doctors: Doctor[] = [
   {
     slug: "dr-pradhyuman-jadav", name: "Dr Pradhyuman Jadav", specialty: "Pediatrician", role: "Child Specialist",
-    photo: "/img/viyananksir.jpeg", experience: "Around 10 Years",
-    bio: "Dr. Pradhyuman takes the time to listen to every parent's concerns and explains things in plain language, without rushing an appointment. Known across Kodinar for his patience with even the fussiest toddlers.",
+    photo: "/img/viyananksir.jpeg", experience: "13 Years",
+    bio: "Dr. Pradhyuman takes the time to listen to every parent's concerns and explains things in plain language, without rushing an appointment. Known across Kodinar for his patience with even the fussiest toddlers. He has been caring for children for 13 years, including his earlier years serving at a trust hospital.",
     care: ["Newborn & Neonatal Care", "Child Vaccination", "Routine Check-ups & Growth Monitoring", "Treatment for Childhood Illnesses", "Emergency Pediatric Care"],
     resource: { label: "Parent Resource", title: "Keep Your Child's Vaccinations Organized", href: "/resources/vaccination-tracker" },
   },

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
 export default function Careers() {
   return (
     <>
-      <PageHero image="/img/child-checkup-2.jpeg" eyebrow="Join our team" title={<>Build a career <em className="text-clay">that cares.</em></>} intro="Vinayak Children & Maternity Hospital has been part of the Kodinar community for over a decade. We're always glad to hear from compassionate healthcare professionals who share our commitment to families." />
+      <PageHero image="/img/child-checkup-2.jpeg" eyebrow="Join our team" title={<>Build a career <em className="text-clay">that cares.</em></>} intro="Vinayak Children & Maternity Hospital has been part of the Kodinar community since 2023. We're always glad to hear from compassionate healthcare professionals who share our commitment to families." />
       <section className="wrap pb-8">
         <div className="reveal max-w-2xl rounded-3xl bg-cream-2 p-10">
           <h2 className="display text-3xl">No specific openings right now</h2>

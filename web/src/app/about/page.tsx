@@ -6,14 +6,14 @@ import { doctors, journey, site } from "@/content/site";
 
 export const metadata: Metadata = {
   title: "About Us",
-  description: "For over a decade, Vinayak Children & Maternity Hospital has cared for families in Kodinar, from pregnancy and childbirth to newborn care and childhood.",
+  description: "Since 2023, Vinayak Children & Maternity Hospital has cared for families in Kodinar, from pregnancy and childbirth to newborn care and childhood.",
   alternates: { canonical: "/about" },
 };
 
 const facts = [
   [String(site.since), "Trusted care since"],
   ["2", "Specialist doctors"],
-  ["~10", "Years of care"],
+  ["13", "Years of pediatric experience"],
   ["24/7", "Emergency support"],
 ];
 const moments = ["Two lines on a pregnancy test.", "That first heartbeat.", "A mother's nervous smile.", "The first cry of a newborn.", "A child's first vaccination.", "A parent's anxious visit."];
@@ -28,7 +28,7 @@ const H2 = "display text-[clamp(1.9rem,3.6vw,3rem)] leading-[1.05]";
 export default function About() {
   return (
     <>
-      <PageHero eyebrow={`About Vinayak Hospital · Since ${site.since}`} title={<>Where <em>new beginnings</em> meet lifelong care.</>} intro="For over a decade, we've cared for families in Kodinar, from pregnancy and childbirth to newborn care and childhood." />
+      <PageHero eyebrow={`About Vinayak Hospital · Since ${site.since}`} title={<>Where <em>new beginnings</em> meet lifelong care.</>} intro="Since 2023, we've cared for families in Kodinar, from pregnancy and childbirth to newborn care and childhood." />
 
       {/* Story + facts */}
       <section className="wrap grid items-center gap-5 pb-8 md:grid-cols-[0.9fr_1.1fr]" aria-labelledby="story-h">
